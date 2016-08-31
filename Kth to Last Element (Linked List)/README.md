@@ -4,8 +4,10 @@
 
 ### Method Header:
 Java: public Node findKthFromLast(Node n, int k) {}
+
 Ruby: def find_kth_from_last(node, k)
 
 ### Example:
 Given a pointer to the head of the following linked list: 1 => 2 => 3 => 4 => 5 => 6
+
 findKthFromLast(head, 2); //would return the node with value 4

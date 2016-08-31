@@ -4,6 +4,7 @@
 
 ### Method Header:
 Java: public int findTotal(int n) {}
+
 Ruby: def find_total(n)
 
 ### Example:

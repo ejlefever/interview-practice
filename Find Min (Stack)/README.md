@@ -4,14 +4,22 @@
 
 ### Method Header:
 Java: public int getMin() {}
+
 Ruby: def get_min
 
 ### Example:
 stack.push(5);
+
 stack.push(6);
+
 stack.push(4);
+
 stack.push(1);
+
 stack.push(3);
+
 stack.pop();
+
 stack.pop();
+
 stack.getMin(); //returns 4
