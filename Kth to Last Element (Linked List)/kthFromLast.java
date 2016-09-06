@@ -25,7 +25,7 @@ public class kthFromLast {
 		if (n == null) {
 			System.out.println("Invalid n.");
 			return null;
-		} else if (k > n.getNodeCount() || k < 0 || n == null) {
+		} else if (k > n.getNodeCount() || k < 0) {
 			System.out.println("Invalid k.");
 			return null;
 		}
