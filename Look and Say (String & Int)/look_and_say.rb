@@ -27,3 +27,7 @@ puts look_and_say(244466666) # expected: 123456
 puts "Input: 4443255522"
 puts "Look and say..."
 puts look_and_say(4443255522) # expected: 3413123522
+
+puts "Input: 1"
+puts "Look and say..."
+puts look_and_say(1) # expected: 3413123522

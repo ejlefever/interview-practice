@@ -1,22 +1,19 @@
 class Node
 
   attr_accessor :next
-  attr_reader :data, :node_count
+  attr_reader :data
 
   def initialize(data)
     @data = data
-    @node_count = 0
     @next = nil
   end
 
   def add(data)
-    temp = Node.new(data)
     current = self
-    while current.next != nil
+    while current.next
       current = current.next
     end
-    current.next = temp
-    @node_count += 1
+    current.next = Node.new(data)
   end
 
   def print
