@@ -10,6 +10,7 @@ Average: O(n log(n))
 Worst: O(n)
 
 # QuickSort
+## Time Complexity
 Best: O(n log(n))
 
 Worst: O(n^2)
